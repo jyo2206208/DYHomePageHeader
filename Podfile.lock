@@ -1,11 +1,11 @@
 PODS:
-  - FFCallCenter (0.0.3)
+  - FFCallCenter (0.0.4)
 
 DEPENDENCIES:
   - FFCallCenter
 
 SPEC CHECKSUMS:
-  FFCallCenter: c16da88156eeb326b07afe2a699938ece7671fac
+  FFCallCenter: a6dbc23c30a33efe9b282d7f23177fb2d2e4bc96
 
 PODFILE CHECKSUM: 204f8d2233ace561b2fe7725f82fab8f1b084a68
 

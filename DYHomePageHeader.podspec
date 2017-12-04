@@ -38,5 +38,5 @@ To use this as the head of the module
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'FFCallCenter'
 end
