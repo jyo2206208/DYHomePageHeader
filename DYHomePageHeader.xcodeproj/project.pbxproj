@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D3A79D61FD532BC00AE03D3 /* FFCallCenter+DYHomePageHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3A79D51FD532BC00AE03D3 /* FFCallCenter+DYHomePageHeader.m */; };
 		4D8742968F66D51D18197AF1 /* Pods_DYHomePageHeader_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FBEFC25335E326CBE8A9C9E /* Pods_DYHomePageHeader_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,11 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CEF6A6DEA90F0B2CBA2B937 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0CEF6A6DEA90F0B2CBA2B937 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1D3A79D41FD532BC00AE03D3 /* FFCallCenter+DYHomePageHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FFCallCenter+DYHomePageHeader.h"; sourceTree = "<group>"; };
+		1D3A79D51FD532BC00AE03D3 /* FFCallCenter+DYHomePageHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FFCallCenter+DYHomePageHeader.m"; sourceTree = "<group>"; };
 		2DCCE0FBECC52B91028C3386 /* Pods-DYHomePageHeader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYHomePageHeader_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DYHomePageHeader_Example/Pods-DYHomePageHeader_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2FAF6F6DC368D4B632B4955B /* Pods_DYHomePageHeader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYHomePageHeader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B4C0F499C7B330D6BFEA133 /* Pods-DYHomePageHeader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYHomePageHeader_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DYHomePageHeader_Tests/Pods-DYHomePageHeader_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		59D4FCDCD8A81A541C349BBB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		59D4FCDCD8A81A541C349BBB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DYHomePageHeader_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYHomePageHeader_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,9 +65,8 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		62B75D5426C6B1C8A8E177DC /* Pods-DYHomePageHeader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYHomePageHeader_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DYHomePageHeader_Example/Pods-DYHomePageHeader_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		717854123D0A345AD1FAF151 /* DYHomePageHeader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; path = DYHomePageHeader.podspec; sourceTree = "<group>"; };
+		717854123D0A345AD1FAF151 /* DYHomePageHeader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = DYHomePageHeader.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8F0ACDC2D2979D4E06BD023A /* RemoveMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RemoveMe.m; path = ../DYHomePageHeader/RemoveMe.m; sourceTree = "<group>"; };
 		8FBEFC25335E326CBE8A9C9E /* Pods_DYHomePageHeader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYHomePageHeader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D726C01881579D9181479BAA /* Pods-DYHomePageHeader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYHomePageHeader_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DYHomePageHeader_Tests/Pods-DYHomePageHeader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,9 +100,9 @@
 		1D4EE82C1FCDD0590062AFE5 /* DYHomePageHeader */ = {
 			isa = PBXGroup;
 			children = (
-				8F0ACDC2D2979D4E06BD023A /* RemoveMe.m */,
+				1D3A79D41FD532BC00AE03D3 /* FFCallCenter+DYHomePageHeader.h */,
+				1D3A79D51FD532BC00AE03D3 /* FFCallCenter+DYHomePageHeader.m */,
 			);
-			name = DYHomePageHeader;
 			path = DYHomePageHeader;
 			sourceTree = "<group>";
 		};
@@ -330,9 +332,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DYHomePageHeader_Example/Pods-DYHomePageHeader_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FFCallCenter/FFCallCenter.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFCallCenter.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -411,6 +416,7 @@
 			files = (
 				6003F59E195388D20070C39A /* DYAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* DYViewController.m in Sources */,
+				1D3A79D61FD532BC00AE03D3 /* FFCallCenter+DYHomePageHeader.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
